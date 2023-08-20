@@ -1,19 +1,19 @@
 {
-    "name": "shayanmemon/contact",
-    "description": "This is Final Form",
+    "name": "mrmohsin/crudpackage",
+    "description": "My Package",
     "type": "library",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mrmohsin\\Crudpackage\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "mnmohsin",
-            "email": "mohsin.centosquare@gmail.com"
+            "name": "MNMEMON",
+            "email": "mohsin2110b@aptechgdn.net"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "shayanmemon\\contact\\": "src/"
-        }
-    }
+    "require": {}
 }
